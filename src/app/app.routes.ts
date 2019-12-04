@@ -8,7 +8,7 @@ import { AboutComponent} from './pages/about/about.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
-    { path: 'home', component: HomeComponent, data: { title: 'Inicio', icon: 'fa-home' } },
+    { path: 'home', component: HomeComponent },
     { path: 'about', component: AboutComponent },
     { path: '', redirectTo:'/home', pathMatch:'full' },
     { path: '**', component: PageNotFoundComponent },
