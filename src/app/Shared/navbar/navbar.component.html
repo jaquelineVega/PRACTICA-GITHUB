@@ -13,16 +13,13 @@
           <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active" >About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" [routerLink]="['']" routerLinkActive="router-link-active" >Contacto <span class="sr-only">(current)</span></a>
-        </li>       
-        
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" [routerLink]="['/products']" routerLinkActive="router-link-active" >Productos <span class="sr-only">(current)</span></a>
         </li>
+       
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0"routerLink="['/product']"type="submit">Search</button>
       </form>
     </div>
   </nav>
