@@ -15,7 +15,9 @@ export class ProductsService {
   }
 
   getAll() {
+
     return this.http.get(URL_PRODUCTS);
+
   }
 
   getByCategory(category: string){
